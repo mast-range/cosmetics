@@ -5,7 +5,7 @@ Themes for fediverse sites. All are work in progress, but should be usable.
 
 #### blacklead (low-contrast)
 
-A distraction-free/minimalist theme that emphasizes post content over account information. Low contrast, low saturation, dark gray background. It functions best over vanilla Mastodon's dark theme. Please note that the low contrast might not work for everyone. 
+A distraction-free/minimalist theme that emphasizes post content over account information. Low contrast, low saturation, dark gray background. Largely based on [Mastodon Flat CSS](https://github.com/trwnh/mastodon-flat-css). It functions best over vanilla Mastodon's dark theme. Please note that the low contrast might not work for everyone. 
 
 ![Mastodon [blacklead (low contrast)] theme, timeline](https://fediverse.blog/static/media/C1490DEE-0C05-559F-BA3E-437023BFBD46.png)
 
