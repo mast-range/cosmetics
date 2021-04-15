@@ -1,5 +1,5 @@
 # cosmetics
-Themes for fediverse sites
+Themes for fediverse sites. All are work in progress, but should be usable.
 
 ### Mastodom themes
 
