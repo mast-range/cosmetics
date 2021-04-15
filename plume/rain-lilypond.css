@@ -1,0 +1,580 @@
+/* Plume theme [rain-lilypond] by mast */
+
+html ::selection, body ::selection {
+
+    background: #25252580;
+
+}
+
+body  {
+  color: white;  
+    background: rgb(63, 63, 63);
+    background-image: url(https://fediverse.blog/static/media/A558491E-9711-0BCC-00AE-2498C96CB3BA.jpg); 
+    background-size: 100em;  
+    background-attachment:fixed;
+  border-radius: 0 !important;
+}
+
+/* cursor */
+/*
+div {
+    cursor:crosshair;
+}
+*/
+
+/* style scrollbars */
+
+body::-webkit-scrollbar-track {
+  background: none !important;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white !important;    /* color of the scroll thumb */
+  border: 1px solid black;
+}
+
+.scroller {
+  scrollbar-color: white transparent !important;
+}
+
+main h1 {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: .5em;
+  padding-left: 0;
+  margin-left: 115px;
+    
+}
+
+main h2 {
+  color: #fdfdfd;
+  font-size: 1em;
+  margin-left: 121px;
+  border-left: 1px solid #ffffff;
+    border-width: 0.5px;
+    border-radius: 0%;
+padding-left: 17px
+}
+
+h2 > a {
+    font-size: 1em;
+}
+
+small {
+  color: #e2e2e2;
+}
+
+p {
+  color: #ffffff;  
+}
+
+/* fonts */
+main article {
+    max-width: 100ch;
+    margin: 2.5em auto;
+    font-family: "Vazir","Lora",serif;
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+
+/*
+section {
+  border-style: solid;
+    border-color: rgb(122, 122, 122);
+    border-width: 0.5px;
+    border-radius: 35%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+*/
+
+.card {
+  border-style: solid;
+    border-color: #e0e0e0;
+    border-width: 1px;
+    border-radius: 0%;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background: none;
+  color: #f3f3f3;
+}
+
+.card h3 a {
+  font-size: .7em;
+  padding-left: 40px;
+  border-left: 1px solid #ececec;
+  margin-left: 30px;
+}
+
+.card main {
+  line-height: 1.5em
+}
+.card footer.authors span.likes, .card footer.authors .reshares {
+  display: none;
+}
+
+footer.authors {
+    font-size: .9em;
+   filter: opacity(80%);
+}
+
+/* page header */
+
+body > header,
+body > header nav:nth-child(2) {
+    background: none;
+    box-shadow: none;
+}
+
+body > header nav a.title img {
+  filter: brightness(100) grayscale(100%);
+}
+
+body > header nav a.title {   
+  width: 50px;
+  height: 50px;
+  font-size: 1em;
+  padding: 15px;
+}
+
+body > header nav a.title p {
+  display: none
+}
+
+body > header nav hr {
+  display: none;
+  height: 50px;
+  width: .1em;
+  transform: skewX(-50deg);
+}
+
+
+/* header icons */
+
+header nav a {
+  font-weight:300;
+}
+
+header nav a:hover,
+header nav a:visited:hover,
+header nav a:hover i {
+  margin-bottom: 0;
+  text-decoration: none !important;
+    background: none;
+}
+
+header nav a .mobile-label {
+  transition: none !important;
+    padding-top: 6px
+}
+
+/* page footer */
+
+.banner, body > footer {
+  background: none ;
+  color: #e0e0e0;
+  font-size: .9em;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-width: 0.4px;
+    border-radius: 0%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+body > footer hr {
+  background: #e0e0e0;
+  width: .75px;
+  transform: scaleY(.7);
+}
+
+/*
+body > footer div > h3 {
+      border-style: solid;
+    border-color: rgb(57, 57, 57);
+    border-width: 1px;
+    border-radius: 0%;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    padding-left: 40px;
+}
+**/
+
+.center {
+  font-weight: 300;
+}
+
+/* links */
+
+p a, p a:visited{
+    color: white;
+  text-decoration: underline;
+/*  text-decoration-thickness: 1.5px;*/
+  text-decoration-color: #25252580;
+    transition: none;
+}
+
+form.inline input[type="submit"]:not(.button)  {
+    border-left: 1px solid white;
+    padding-left: 15px;
+    margin-left: 10px;
+    color:white;
+    transition: none;
+}
+
+a, a:visited {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+a:hover, a:visited:hover,
+form.inline input[type="submit"]:not(.button):hover{
+    color: white;
+  text-decoration: none !important;
+  background: #25252580;
+    transition: none;
+}
+
+
+body > header nav a {
+  text-decoration: none;
+}
+
+p a.button.inline-block{
+  text-decoration: none !important;
+}
+
+.card h3 a {
+    display: block;
+    transition: none;
+    color: white;
+}
+
+.card h3 a:hover {
+    color: #fff;
+}
+
+
+
+/* buttons */
+
+.button, .button:visited, input[type="submit"], input[type="submit"].button {
+  background: none;
+  color: #ffffff;
+  font-weight: 350;
+  border-left: 1px solid #ffffff;
+  padding-left: 10px;
+    transition: none;
+}
+
+/*
+a.button,
+a.inline-block {
+  font-weight: normal;
+  filter: drop-shadow(5px 0px 4px rgb(250, 228, 29));
+  padding:10px;
+}
+*/
+
+.button:hover, .button:visited:hover, input[type="submit"]:hover, input[type="submit"].button:hover {
+background: #25252580;
+}
+
+.button.destructive, .button:visited.destructive, input[type="submit"].destructive, input[type="submit"].button.destructive {
+    background: #ff210059;
+}
+
+.button.destructive:hover, .button:visited.destructive:hover, input[type="submit"].destructive:hover, input[type="submit"].button.destructive:hover {
+    background: rgba(193, 46, 46, .9);
+}
+
+/* header tabs */
+
+body > main > *, .h-feed > * {
+    margin: 1em 5%;
+}
+
+.tabs {
+  border: none;
+  margin: auto 5% ;
+    overflow: clip;
+}
+
+.tabs a {
+  color: #ffffff;
+  font-weight:300;
+    padding-left: 20px;
+}
+
+.tabs a:hover {
+    background:none;
+    border-left: 1px solid #ffffff;
+    border-width: 0.5px;
+    border-radius: 0%;
+    padding-left: 19px;
+}
+
+.tabs a.selected {
+  color: #ffffff;
+  border-left: 1px solid #ffffff;
+  border-width: 0.5px;
+  border-radius: 0%;
+  text-decoration: none;
+  border-bottom: none;
+    padding-left: 19px;
+}
+
+/* mobile menu */
+
+body > header nav#menu,
+body > header nav#content::before
+{
+    background: none;
+}    
+
+
+
+/* pagination */
+
+.pagination a {
+  padding-top:5px;
+    padding-left:20px;
+    padding-bottom:10px;
+}
+
+.pagination a:hover{
+    background: none;
+     border-left: 1px solid #ffffff;
+  border-width: 0.5px;
+  border-radius: 0%;
+    padding-top:5px;
+    padding-left: 19px;
+    
+}
+
+/* avatars */
+
+.avatar.small {
+  width: 40px;
+  height: 50px;
+  border-radius: 0;
+  border: 1px solid #ffffff;
+  filter: grayscale(100%) opacity(50%);
+}
+
+.avatar.small:hover {
+  filter: none;
+}
+
+/* article header */
+
+main header.article > div:not(.shadow) h1, main header.article > div:not(.shadow) .article-info {
+    text-align: left;
+}
+
+main h1.article {
+    font-size: 1.5em;
+    margin-left: 4em;
+}
+
+main h2.article {
+    font-size: 1em;
+}
+
+main header.article {
+  background: none;
+  color: #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+    margin-left:15em;
+    margin-right: 15em;
+}
+
+main article.e-content {
+
+  padding-top:30px;
+}
+
+/* author information */
+
+.avatar.medium {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 0;
+    border: 1px solid #e0e0e0;
+}
+
+h2.p-name {
+  margin-left:0;
+}
+
+
+/* article meta */
+
+main .article-meta, main .article-meta button {
+    font-size: 1em;
+}
+
+/* hashtags */
+
+main .article-meta .tags li,
+main .article-meta .tags li a {
+    font-size: 1em;
+    text-decoration: none !important;
+    border: 1px solid #e0e0e0;
+        border-radius: 0;
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+    transition: none;
+}
+
+main .article-meta .tags li:hover {
+    background: #25252580 !important;
+    transition: none;
+}
+
+/* like and reshare */
+
+main .article-meta .likes .action svg.feather,
+main .article-meta .reshares .action svg.feather{
+    padding: .7em;
+    box-sizing: border-box;
+    color: #fff;
+    fill: none;
+    border: solid #fff thin;
+    transition: none;
+}
+
+main .article-meta .reshares p, main .article-meta .reshares .action:hover,
+main .article-meta .likes p, main .article-meta .likes .action:hover,
+main .article-meta .likes .action, main .article-meta .reshares .action {
+  filter: grayscale(100%);
+  color: #e0e0e0;
+  font-size: .7em;
+
+}
+
+main .article-meta .likes .action:hover svg.feather,
+main .article-meta .reshares .action:hover svg.feather,
+main .article-meta .likes .action:active svg.feather,
+main .article-meta .reshares .action:active svg.feather{
+    background-color: #25252580;    
+    transition: none;
+}
+
+/* card */
+
+div .card .cover {
+  border: 1px solid #e0e0e0;
+  min-height: 9em;
+  filter: grayscale(100%);
+  margin-left: 15px
+}
+
+.card .cover:hover {
+  filter: none;
+}
+
+div.cover.media-preview.image, 
+div.cover.media-preview.image:hover{
+  filter: none;
+}
+
+
+main header.article.illustrated {
+  min-height: 50vh;
+  border: 1px solid #e0e0e0;
+  display: contents;
+  background-color: white !important;
+  color: #e0e0e0;
+}
+
+/* article dividers */
+
+main article pre {
+    background: none;
+}
+
+
+/*  */
+
+.messages p.success {
+  border-bottom: 1px solid #f3f3f3;
+  color: #f3f3f3;
+  background: none;
+  font-weight:600;
+  padding-bottom: 3px;
+}
+
+/* input boxes*/
+
+label {
+  color:#e0e0e0;
+    font-size: 1em;
+}
+
+input, textarea, select {
+  padding: .4em;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: white;
+}
+
+/* profile badge */
+
+.badge {
+  color: #ffffff;
+  border-color: #ffffff;
+  background: none;
+}
+
+/* comment boxes */
+
+main .article-meta .comments h2 {
+    color: #fff !important;
+    font-size: 1em;
+}
+
+main .article-meta .comments .comment .content {
+    background: none;
+    margin-top: 2.5em;
+    padding: 1em;
+    border: 1px solid #e0e0e0;
+}
+
+main .article-meta .comments .comment .content::before {
+
+    display: block;
+    content: ' ';
+    border: .7em solid #ffffff;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    position: relative;
+    top: -2.4em;
+    left: -1em;
+    width: 0;
+    height: 0;
+
+}
+
+input, textarea, select {
+    background-color: #25252580;
+    color: white;
+    font-size: 1em;
+}
+
+main .article-meta .comments .comment .author .display-name,
+main .article-meta .comments .comment .author:hover .display-name,
+main .article-meta .comments a.button::before, main .article-meta .comments form.inline::before, main .article-meta .comments form.inline input::before  {
+    color: #ffffff;
+}
